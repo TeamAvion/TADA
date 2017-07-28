@@ -1,4 +1,4 @@
-package org.teamavion.tada;
+package org.teamavion.app;
 
 public class Controller {
 }

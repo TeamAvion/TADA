@@ -1,4 +1,4 @@
-package org.teamavion.tada;
+package org.teamavion.app;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -11,7 +11,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("assets/root.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../assets/root.fxml"));
         primaryStage.setTitle("Team Avion Desktop Application");
         primaryStage.initStyle(StageStyle.UNIFIED);
         primaryStage.setScene(new Scene(root));
