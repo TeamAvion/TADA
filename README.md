@@ -3,8 +3,8 @@ A dank project
 
 *Official roles:*
 
-**Taco: ** Frontend/Design
+**Taco** : Frontend/Design
 
-**Bread: ** Full stack
+**Bread** : Full stack
 
-**Blynd3: ** Backend
+**Blynd3** : Backend
