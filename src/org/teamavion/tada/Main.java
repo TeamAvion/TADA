@@ -5,13 +5,15 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("root.fxml"));
-        primaryStage.setTitle("Hello World");
+        Parent root = FXMLLoader.load(getClass().getResource("assets/root.fxml"));
+        primaryStage.setTitle("Team Avion Desktop Application");
+        primaryStage.initStyle(StageStyle.UNIFIED);
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }
