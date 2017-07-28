@@ -1,2 +1,7 @@
 # TADA
-I have a big toe
+A dank project
+
+*Official roles:*
+**Taco: ** Frontend/Design
+**Bread: ** Full stack
+**Blynd3: ** Backend
