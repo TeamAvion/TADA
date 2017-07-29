@@ -11,14 +11,14 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="581.0" minWidth="421.0" prefHeight="581.0" prefWidth="421.0" styleClass="main-pane" stylesheets="@style/login.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label id="Login-Header-Text" layoutX="5.0" layoutY="22.0" prefHeight="53.0" prefWidth="411.0" style="-fx-text-fill: Black;" text="Team Avion Desktop App">
+      <Label id="Login-Header-Text" layoutX="5.0" layoutY="22.0" prefHeight="53.0" prefWidth="411.0" text="Team Avion Desktop App">
          <font>
             <Font size="36.0" />
          </font></Label>
       <Label id="Login-Username-Lable" layoutX="76.0" layoutY="293.0" text="Minecraft Username" textAlignment="RIGHT" />
-      <TextField id="Login-Username" layoutX="188.0" layoutY="284.0" prefHeight="35.0" prefWidth="172.0" promptText="Minecraft Username" />
+      <TextField id="Login-Username" layoutX="188.0" layoutY="284.0" prefHeight="35.0" prefWidth="172.0" promptText="Minecraft Username"/>
       <Label id="Login-Password-Lable" layoutX="78.0" layoutY="355.0" text="Minecraft Password" />
-      <PasswordField id="Login-Password" layoutX="188.0" layoutY="346.0" prefHeight="35.0" prefWidth="172.0" promptText="Minecraft Password" />
+      <PasswordField id="Login-Password" layoutX="188.0" layoutY="346.0" prefHeight="35.0" prefWidth="172.0" promptText="Minecraft Password"/>
       <Hyperlink id="Login-Forgot-Password" layoutX="188.0" layoutY="381.0" text="Forgot Password ?" />
       <Button id="Login-Button" layoutX="191.0" layoutY="464.0" mnemonicParsing="false" text="Login">
          <font>
