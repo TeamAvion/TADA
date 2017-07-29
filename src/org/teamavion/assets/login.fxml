@@ -1,20 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" styleClass="main-pane" stylesheets="@style/login.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="634.0" prefWidth="436.0" styleClass="main-pane" stylesheets="@style/login.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <PasswordField layoutX="176.0" layoutY="277.0" />
-      <Button layoutX="224.0" layoutY="336.0" mnemonicParsing="false" text="Button" />
-      <Label layoutX="62.0" layoutY="281.0" text="Label" />
-      <Label layoutX="62.0" layoutY="183.0" text="Label" />
-      <TextField layoutX="176.0" layoutY="179.0" />
-      <Label layoutX="236.0" layoutY="41.0" text="Label" />
-      <Label layoutX="236.0" layoutY="111.0" text="Label" />
+      <Label layoutX="13.0" layoutY="57.0" prefHeight="53.0" prefWidth="411.0" style="-fx-text-fill: Black;" styleClass="header-class" text="Team Avion Desktop App">
+         <font>
+            <Font size="36.0" />
+         </font></Label>
+      <Label layoutX="76.0" layoutY="346.0" text="Minecraft Username" textAlignment="RIGHT" />
+      <TextField layoutX="188.0" layoutY="337.0" prefHeight="35.0" prefWidth="172.0" promptText="Minecraft Username" />
+      <Label layoutX="78.0" layoutY="408.0" text="Minecraft Password" />
+      <PasswordField layoutX="188.0" layoutY="399.0" prefHeight="35.0" prefWidth="172.0" promptText="Minecraft Password" />
+      <Hyperlink layoutX="188.0" layoutY="434.0" text="Forgot Password ?" />
+      <Button layoutX="191.0" layoutY="517.0" mnemonicParsing="false" text="Login">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Circle layoutX="219.0" layoutY="196.0" radius="67.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="47.0" layoutY="559.0" mnemonicParsing="false" text="Continue without login" />
+      <Label layoutX="201.0" layoutY="554.0" prefHeight="35.0" prefWidth="189.0" text="Will not be able to Launch Minecraft and play" wrapText="true" />
+      <Button layoutX="398.0" layoutY="14.0" mnemonicParsing="false" text="X" />
+      <Button layoutX="369.0" layoutY="14.0" mnemonicParsing="false" text="-" />
    </children>
 </Pane>
