@@ -11,7 +11,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("../assets/login.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../assets/root.fxml"));
         primaryStage.initStyle(StageStyle.UNDECORATED);
         primaryStage.setTitle("Team Avion Desktop Application");
         primaryStage.setScene(new Scene(root));
