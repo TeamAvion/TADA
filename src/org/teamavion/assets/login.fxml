@@ -7,7 +7,6 @@
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.Pane?>
-<?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
 
 <Pane id="Login-pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="581.0" minWidth="421.0" prefHeight="581.0" prefWidth="421.0" stylesheets="@style/login.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
@@ -25,7 +24,6 @@
          <font>
             <Font size="14.0" />
          </font></Button>
-      <Circle id="Login-Image" layoutX="211.0" layoutY="158.0" radius="72.0" stroke="BLACK" strokeType="INSIDE" />
       <Button id="Login-CWL-Button" layoutX="62.0" layoutY="506.0" mnemonicParsing="false" text="Continue without login" />
       <Label id="Login-CWL-Lable" layoutX="216.0" layoutY="498.0" prefHeight="42.0" prefWidth="159.0" text="Will not be able to Launch Minecraft and play" wrapText="true">
          <font>
