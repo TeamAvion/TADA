@@ -8,8 +8,8 @@
 #Login-Username:hover, #Login-Password:hover {
     -fx-effect: dropshadow(three-pass-box, gray, 10, 0.1, 2, 2);
 }
-#Login-Password-Lable, #Login-Username-Lable {
-
+#Login-Password-Lable, #Login-Username-Lable, #Login-CWL-Lable, #Login-RM, #Login-Forgot-Password {
+    -fx-text-fill: mediumblue;
 }
 #Login-pane {
     -fx-background-color: white;
@@ -21,7 +21,7 @@
     -fx-border-color: gray;
     -fx-background-radius: 0em;
     -fx-background-color: white;
-    -fx-text-fill: black;
+    -fx-text-fill: mediumblue;
 }
 #Login-Button:hover, #Login-CWL-Button:hover {
     -fx-background-radius: 0em;
