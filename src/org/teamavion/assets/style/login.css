@@ -1,0 +1,12 @@
+#Login-Username {
+    -fx-border-width: 1px 1px 1px 1px; -fx-padding: 5px; -fx-border-color: gray;-fx-background-color: white; -fx-background-radius: 0em;
+}
+#Login-Password {
+    -fx-border-width: 1px 1px 1px 1px; -fx-padding: 5px; -fx-border-color: gray;-fx-background-color: white; -fx-background-radius: 0em;
+}
+#Login-Button, #Login-CWL-Button {
+    -fx-background-radius: 0em; -fx-background-color: gray; -fx-text-fill: white;
+}
+#Login-Button:hover, #Login-CWL-Button:hover {
+    -fx-background-radius: 0em; -fx-background-color: white; -fx-text-fill: black;
+}
