@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
@@ -19,13 +20,21 @@
       <TextField id="Login-Username" layoutX="188.0" layoutY="284.0" prefHeight="35.0" prefWidth="172.0" promptText="Minecraft Username" style="" />
       <Label id="Login-Password-Lable" layoutX="78.0" layoutY="355.0" text="Minecraft Password" />
       <PasswordField id="Login-Password" layoutX="188.0" layoutY="346.0" prefHeight="35.0" prefWidth="172.0" promptText="Minecraft Password" />
-      <Hyperlink id="Login-Forgot-Password" layoutX="188.0" layoutY="381.0" text="Forgot Password ?" />
-      <Button id="Login-Button" layoutX="191.0" layoutY="464.0" mnemonicParsing="false" text="Login" textAlignment="CENTER">
+      <Hyperlink id="Login-Forgot-Password" layoutX="254.0" layoutY="389.0" text="Forgot Password ?" />
+      <Button id="Login-Button" layoutX="145.0" layoutY="464.0" mnemonicParsing="false" text="Login" textAlignment="CENTER">
          <font>
             <Font size="14.0" />
          </font></Button>
       <Circle id="Login-Image" layoutX="211.0" layoutY="158.0" radius="72.0" stroke="BLACK" strokeType="INSIDE" />
-      <Button id="Login-CWL-Button" layoutX="69.0" layoutY="507.0" mnemonicParsing="false" text="Continue without login" />
-      <Label id="Login-CWL-Lable" layoutX="223.0" layoutY="502.0" prefHeight="35.0" prefWidth="144.0" text="Will not be able to Launch Minecraft and play" wrapText="true" />
+      <Button id="Login-CWL-Button" layoutX="62.0" layoutY="506.0" mnemonicParsing="false" text="Continue without login" />
+      <Label id="Login-CWL-Lable" layoutX="216.0" layoutY="498.0" prefHeight="42.0" prefWidth="159.0" text="Will not be able to Launch Minecraft and play" wrapText="true">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <CheckBox layoutX="216.0" layoutY="469.0" mnemonicParsing="false" text="Remember me">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
    </children>
 </Pane>
