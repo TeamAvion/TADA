@@ -1,30 +1,30 @@
 #Login-Username, #Login-Password {
     -fx-border-width: 1px 1px 1px 1px;
     -fx-padding: 10px;
-    -fx-border-color: gray;
+    -fx-border-color: cornflowerblue;
     -fx-background-color: white;
     -fx-background-radius: 0em;
 }
 #Login-Username:hover, #Login-Password:hover {
-    -fx-effect: dropshadow(three-pass-box, gray, 10, 0.1, 2, 2);
+    -fx-effect: dropshadow(three-pass-box, cornflowerblue, 0, 0.0, 2, 2);
 }
 #Login-Password-Lable, #Login-Username-Lable, #Login-CWL-Lable, #Login-RM, #Login-Forgot-Password {
     -fx-text-fill: cornflowerblue;
 }
 #Login-pane {
     -fx-background-color: white;
-    -fx-border-width: 1px 1px 1px 1px;
-    -fx-border-color: gray;
+    -fx-background-radius: 1em;
 }
 #Login-Button, #Login-CWL-Button {
     -fx-border-width: 0px 0px 0px 0px;
-    -fx-border-color: gray;
+    -fx-border-color: cornflowerblue;
+    -fx-padding: 10px;
     -fx-background-radius: 0em;
     -fx-background-color: white;
     -fx-text-fill: cornflowerblue;
 }
 #Login-Button:hover, #Login-CWL-Button:hover {
     -fx-background-radius: 0em;
-    -fx-background-color: #FFFFFF;
-    -fx-effect: dropshadow(three-pass-box, gray, 10, 0.1, 2, 2);
+    -fx-background-color: #eaf9ff;
+    -fx-effect: dropshadow(three-pass-box, cornflowerblue, 0, 0.1, 2, 2);
 }
