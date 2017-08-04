@@ -1,0 +1,8 @@
+#Root-Minecraft-BTN, #Root-OP-BTN, #Root-Settings-BTN, #Root-Team-BTN {
+    -fx-border-width: 1px 1px 1px 0px;
+    -fx-border-color: cornflowerblue;
+    -fx-padding: 10px;
+    -fx-background-radius: 0em;
+    -fx-background-color: white;
+    -fx-text-fill: cornflowerblue;
+}

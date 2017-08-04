@@ -1,0 +1,21 @@
+# Specifies the nice name to show to the user
+I18n.simpleName=English (United States)
+
+
+# Main login window Strings
+login.window.title=Minecraft Account Login
+
+login.window.label.username=Minecraft Username
+login.window.label.password=Minecraft Password
+login.window.label.cwl=You will not be able to Launch Minecraft
+
+login.window.action.login=Login
+login.window.action.cwl=Continue without logging in
+login.window.action.forgot=Forgot Password?
+login.window.action.remember=Remember me
+
+
+# Login error window
+login.error.title=Login Error
+login.error.header=Fields cannot be empty!
+login.error.content=Please enter both a username and password

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="730.0" prefWidth="1200.0" styleClass="main-pane" stylesheets="@style/root.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2f95fc" height="730.0" stroke="TRANSPARENT" strokeType="INSIDE" width="92.0" />
+      <ImageView fitHeight="69.0" fitWidth="65.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/logos/teamavion.png" />
+         </image>
+      </ImageView>
+      <Pane id="Root-Minecraft-BTN" layoutX="-183.0" layoutY="172.0" prefHeight="88.0" prefWidth="275.0">
+         <children>
+            <Label layoutX="14.0" layoutY="29.0" text="Minecraft">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font></Label>
+             <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="196.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                 <image>
+                     <Image url="@images/logos/teamavion.png" />
+                 </image>
+             </ImageView>
+         </children>
+      </Pane>
+       <Pane id="Root-OP-BTN" layoutY="270.0" prefHeight="88.0" prefWidth="275.0">
+           <children>
+               <Label layoutX="14.0" layoutY="29.0" text="Other Products">
+                   <font>
+                       <Font name="System Bold" size="21.0" />
+                   </font></Label>
+               <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="196.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                   <image>
+                       <Image url="@images/logos/team.png" />
+                   </image>
+               </ImageView>
+           </children>
+       </Pane>
+       <Pane id="Root-Team-BTN" layoutY="371.0" prefHeight="88.0" prefWidth="275.0">
+           <children>
+               <Label layoutX="14.0" layoutY="29.0" text="The Team">
+                   <font>
+                       <Font name="System Bold" size="21.0" />
+                   </font></Label>
+               <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="196.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                   <image>
+                       <Image url="@images/logos/team-2.png" />
+                   </image>
+               </ImageView>
+           </children>
+       </Pane>
+       <Pane id="Root-Settings-BTN" layoutY="471.0" prefHeight="88.0" prefWidth="275.0">
+           <children>
+               <Label layoutX="14.0" layoutY="29.0" text="Settings">
+                   <font>
+                       <Font name="System Bold" size="21.0" />
+                   </font></Label>
+               <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="196.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                   <image>
+                       <Image url="@images/logos/settings-2.png" />
+                   </image>
+               </ImageView>
+           </children>
+       </Pane>
+   </children>
+</Pane>

@@ -1,0 +1,21 @@
+# Specifies the nice name to show to the user
+I18n.simpleName=Svenska (Sverige)
+
+
+# Main login window Strings
+login.window.title=Minecraft Kontoinloggning
+
+login.window.label.username=Minecraft-användarnamn
+login.window.label.password=Minecraft-lösenord
+login.window.label.cwl=Du kommer inte att kunna starta Minecraft
+
+login.window.action.login=Logga in
+login.window.action.cwl=Fortsätt utan att logga in
+login.window.action.forgot=Glömt ditt lösenord?
+login.window.action.remember=Kom ihåg mig
+
+
+# Login error window
+login.error.title=Inloggningsfel
+login.error.header=Fält kan inte vara tomma
+login.error.content=Vänligen ange både användarnamn och lösenord
