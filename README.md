@@ -6,3 +6,6 @@
 
 ## About the Project
 The Team Avion Desktop App project is the sucseder of the TAL [Team Avion Launcher] Project which consisted in provind our supporters to download, view, share, our products conserning Minecraft, but also would have implimented a creative workspace.
+
+## Connect
+[Team Avion Discord](https://discord.gg/vbraGuY) | [Team Avion Website](https://teamavion.org)
